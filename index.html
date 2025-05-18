@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Moonlit Pages</h1>
+        <div id="header-icon-desc">
+            <div id="book-icon" aria-label="Book Icon" role="img">📚</div>
+            <p id="site-description">Your personal digital library to browse, borrow, and keep track of your favorite books.</p>
+        </div>
+<nav>
+    <a href="#" id="home-link">Home</a> | 
+    <a href="#" id="hstory-link">Borrow History</a>
+</nav>
+</header>
+<main>
+    <section id="search-section">
+        <h2>Search Books</h2>
+        <input type="text" id="search-input" placeholder="Search by title, author, or genre..." />
+    </section>
+    <section id="categories-section">
+        <h2>Categories</h2>
+        <div id="categories-list">
+            <!-- Categories will be dynamically generated here -->
+        </div>
+    </section>
+    <section id="books-section">
+        <h2>Books</h2>
+        <ul id="books-list">
+            <!-- Book items will be dynamically generated here -->
+        </ul>
+    </section>
+    <section id="history-section" style="display:none;">
+        <h2>Borrow History</h2>
+        <ul id="history-list">
+            <!-- Borrowing history will be dynamically generated here -->
+        </ul>
+    </section>
+</main>
+   
+<script src="script.js"></script>
+</body>
+</html>
